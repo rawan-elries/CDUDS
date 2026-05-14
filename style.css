@@ -123,3 +123,22 @@ th,td
 {
     margin: 30px 0;
 }
+
+
+@media (max-width: 576px)
+{
+    table
+    {
+        width: 100%;
+        font-size: 13px;
+    }
+    th,td
+    {
+        padding: 7px;
+        white-space: nowrap;
+    }
+    .table-container
+    {
+        overflow-x: auto;
+    }
+}

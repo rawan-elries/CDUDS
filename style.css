@@ -109,6 +109,7 @@ table
     width: 100%;
     margin-top: 20px;
     text-align: center;
+    border-collapse: collapse;
 }
 
 
@@ -122,4 +123,15 @@ th,td
 #deleteAll
 {
     margin: 30px 0;
+}
+
+
+@media (max-media: 577)
+{
+    table
+    {
+        font-size: 10px;
+        width: 900px;
+        overflow-x: auto;
+    }
 }

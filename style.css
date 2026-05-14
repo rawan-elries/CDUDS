@@ -126,38 +126,21 @@ th,td
 }
 
 
-@media (max-media: 577)
+@media (max-width: 576)
 {
     body
     {
-        margin: 0;
-        padding: 0;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
-    
+
     .container
     {
-        font-size: 7px;
-        table-layout: fixed;
-        width: 100%; 
-        margin: 0;
-        padding: 0;
+        margin: 0 !important;
+        padding: 0 !important;
     }
-
-
-    table
-    {
-        font-size: 7px;
-        table-layout: fixed;
-        width: 100%;
-    }
-
-
-    th, td
-    {
-        font-size: 10px;
-        margin: 0;
-        padding: 0;
-    }
-        
 }
+
+    
+    

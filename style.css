@@ -125,28 +125,24 @@ th,td
 }
 
 
-.table-container {
-    width: 100%;
-    overflow-x: auto;
-}
-
-.table-container::-webkit-scrollbar {
-    height: 6px;
-}
-
-table {
-    min-width: 900px;
-    width: 100%;
-}
-
 @media (max-width: 576px) {
+    .crud {
+        width: 95%;
+    }
+
     table {
-        font-size: 12px;
+        width: 100%;
     }
 
     th,
     td {
-        padding: 4px;
-        white-space: nowrap;
+        padding: 2px 1px;
+    }
+
+    td button,
+    th button {
+        padding: 2px;
+        height: 25px;
+        border-radius: 10px;
     }
 }

@@ -125,3 +125,12 @@ th,td
 }
 
 
+@media (max-width: 768px) {
+    table {
+        min-width: 600px;
+    }
+
+    .table-container {
+        padding: 10px;
+    }
+}

@@ -134,11 +134,14 @@ th,td
         overflow-x: hidden;
         font-size: 10px;
     }
+
+
    .container
    {
     width: 100%;
     margin: auto;
-    font-size: small;
+    font-size: smaller;
+    justify-content: left;
    }
 
 

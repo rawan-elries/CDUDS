@@ -131,6 +131,8 @@ th,td
     body
     {
         overflow: hidden;
+        overflow-x: hidden;
+        font-size: 10px;
     }
    .container
    {

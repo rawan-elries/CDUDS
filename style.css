@@ -10,6 +10,7 @@ body
     background-color: #222;
     color: azure;
     font-family: Arial, sans-serif;
+    overflow: hidden;
 }
 
 
@@ -138,7 +139,7 @@ th,td
    table 
    {
     font-size: small;
-    max-width: max-content;
+    max-width: 300px;
     margin: auto;
     padding: auto;
    }

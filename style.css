@@ -135,11 +135,21 @@ th,td
     }
 
     
-    table
+    .container
     {
         font-size: 7px;
         table-layout: fixed;
         width: 100%; 
+        margin: 0;
+        padding: 0;
+    }
+
+
+    table
+    {
+        font-size: 7px;
+        table-layout: fixed;
+        width: 100%;
     }
 
 

@@ -109,7 +109,6 @@ table
     width: 100%;
     margin-top: 20px;
     text-align: center;
-    border-collapse: collapse;
 }
 
 
@@ -128,19 +127,24 @@ th,td
 
 @media (max-width: 576px)
 {
-    body
-    {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
+   .container
+   {
+    width: 100%;
+    margin: auto;
+    font-size: small;
+   }
 
 
-    .container
-    {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
+   table 
+   {
+    font-size: small;
+    max-width: 300px;
+    margin: auto;
+   }
+
+
+   th , td
+   {
+    font-size: small;
+   }
 }
-
-    
-    

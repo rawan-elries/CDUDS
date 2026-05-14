@@ -131,14 +131,11 @@ th,td
     {
         width: 100%;
         font-size: 13px;
+        overflow-x: auto;
     }
     th,td
     {
         padding: 7px;
         white-space: nowrap;
-    }
-    .table-container
-    {
-        overflow-x: auto;
     }
 }

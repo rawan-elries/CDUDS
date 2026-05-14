@@ -128,6 +128,10 @@ th,td
 
 @media (max-width: 576px)
 {
+    body
+    {
+        overflow: hidden;
+    }
    .container
    {
     width: 100%;

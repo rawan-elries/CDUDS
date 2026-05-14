@@ -126,30 +126,9 @@ th,td
 
 
 @media (max-width: 768px) {
-    table, thead, tbody, th, td, tr {
+    table, thead, tbody, th, td, tr
+    {
         display: block;
-    }
-
-    thead {
-        display: none;
-    }
-
-    tr {
-        margin-bottom: 15px;
-        background: #1e1e1e;
-        padding: 10px;
-        border-radius: 10px;
-    }
-
-    td {
-        display: flex;
-        justify-content: space-between;
-        padding: 8px;
-        border-bottom: 1px solid #333;
-    }
-
-    td::before {
-        content: attr(data-label);
-        font-weight: bold;
+        min-width: 500px;
     }
 }

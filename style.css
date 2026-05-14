@@ -125,19 +125,31 @@ th,td
 }
 
 
-@media (max-width: 576px) {
-    th
-    {
-        padding: 2px 3px;
-        white-space: nowrap;
-        font-size: 10px;
-        text-transform: none;
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
     }
 
-    table 
-    {
-        table-layout: fixed;
-        width: 100%;
-        font-size: 10px;
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        background: #1e1e1e;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        border-bottom: 1px solid #333;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
     }
 }
